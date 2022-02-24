@@ -12,5 +12,5 @@
 
 ## Ссылка на проект
 
-* [Ссылка на проект]
+* [https://kromnik.github.io/russian-travel/]
 
