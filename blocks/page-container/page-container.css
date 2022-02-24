@@ -1,0 +1,25 @@
+.page-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 28px 0 24px;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1279px) {
+  .page-container {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page-container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page-container {
+    max-width: 320px;
+    padding-top: 16px;
+  }
+}

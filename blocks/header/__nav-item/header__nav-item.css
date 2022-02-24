@@ -1,0 +1,9 @@
+  .header__nav-item {
+    margin-right: 18px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header__nav-item:last-child {
+    margin: 0;
+  }

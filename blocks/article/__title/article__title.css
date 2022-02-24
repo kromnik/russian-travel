@@ -1,0 +1,24 @@
+.article__title {
+  box-sizing: border-box;
+  max-width: 690px;
+  margin: 0 0 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1023px) {
+  .article__title {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .article__title {
+    max-width: 250px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

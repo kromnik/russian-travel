@@ -1,0 +1,9 @@
+.header__lang-link_lang_active {
+  transition: opacity .4s;
+}
+
+.header__lang-link_lang_active:hover {
+  text-decoration: underline;
+  opacity: .8;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.article__text {
+  box-sizing: border-box;
+  max-width: 690px;
+  margin: 0 auto 33px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.08px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1023px) {
+  .article__text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .article__text {
+    margin: 0 auto 34px 0;
+  }
+}

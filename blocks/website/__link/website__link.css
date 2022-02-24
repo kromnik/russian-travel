@@ -1,0 +1,16 @@
+.website__link {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  transition: opacity .4s;
+}
+
+.website__link:hover {
+  opacity: .8;
+  cursor: pointer;
+}

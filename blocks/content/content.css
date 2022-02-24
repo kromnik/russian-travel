@@ -1,0 +1,25 @@
+.content {
+  max-width: 1184px;
+  margin: 0 48px;
+  padding: 56px 0 92px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .content {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .content {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    padding-bottom: 64px;
+  }
+} 
